@@ -10,6 +10,11 @@ def add(a: int, b: int) -> int:
     return a + b
 
 
+def multiply(a: int, b: int) -> int:
+    """新增：乘法，供测试用例调用。"""
+    return a * b
+
+
 if __name__ == "__main__":
     print(greet("World"))
     print("1 + 2 =", add(1, 2))
